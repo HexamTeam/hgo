@@ -1,12 +1,17 @@
 import './Home.css';
 import search from '../img/search-icon.png';
 import TextField from '@mui/material/TextField';
+
 import beach from '../img/beach.jpg';
+
 
 const Home = () => {
 
+
     return(
     <div >
+
+      
         <img src={beach} alt="Avatar" className='bgimg'></img>
         <center>
         <div className="rcorners1" >  
@@ -55,6 +60,7 @@ const Home = () => {
                     <img src={search} alt="Avatar" className='sh'></img>
                 </div>
             </div> 
+
             
        
         </div>
