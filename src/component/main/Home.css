@@ -3,8 +3,8 @@
 /*bg image*/
 .bgimg{
     vertical-align: middle;
-    width: 1700px;
-    height: 1000px;
+    width: 1280px;
+    height: 800px;
 }
 /*round coner div*/
 .rcorners {
@@ -63,7 +63,7 @@
   }
   .checkin{
     width: 200px;
-    height: 30px; 
+    height: 50px; 
     /* padding-bottom: 20px; */
     
   }

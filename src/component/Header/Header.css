@@ -14,12 +14,17 @@
 
 .button5 {border-radius: 50%;}
 
-.btn{
+.btn1{
   border-radius: 50px;
   background: #a2a1a3;
   height: 10px;
   padding-bottom: 3em;
   text-align:right;
+}
+
+.hgo{
+  padding-right:'200px';
+  padding-top:'10px'
 }
 
 /* div.transbox p {
