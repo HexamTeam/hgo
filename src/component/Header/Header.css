@@ -12,6 +12,17 @@
   border: none;
 }
 
+.para{
+  color: rgb(231, 235, 26);
+  
+}
+
+.para1{
+  display: flex;
+ 
+  flex-direction: row;
+}
+
 .button5 {border-radius: 50%;}
 
 .btn1{
