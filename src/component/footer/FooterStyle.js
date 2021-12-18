@@ -41,6 +41,17 @@ grid-gap: 20px;
 }
 `;
 
+export const Rw = styled.div`
+display: grid;
+grid-template-columns: repeat(2, 200px);
+grid-gap: 20px;
+
+@media (max-width: 1000px) {
+	grid-template-columns: repeat(auto-fill,
+						minmax(200px, 1fr));
+}
+`;
+
 export const FooterLink = styled.a`
 color: 	#808080;
 margin-bottom: 20px;
