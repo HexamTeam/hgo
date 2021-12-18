@@ -1,3 +1,4 @@
+import { Button, TextField } from "@mui/material";
 import React from "react";
 import {
     Box,
@@ -17,19 +18,25 @@ const Footer = () => {
                             textAlign: "center",
                             marginTop:"-50px"}}>
                                 Travel More, Travel Better
+
                             </h1>
-                <h3 Style={{color:"#6696969",
-                            textAlign: "center",
+                
+                <h3 style={{color:"#6696969",
+                            textAlign:'center',
                             marginTop:"-20px"}}>
                                 Sign up for travel ideas and tips in your mailbox
                             </h3>
-                <form>
-                    <textarea
+                
+                <form style={{textAlign:'center'}}>
+                    <TextField
+                    
                     name="PartyName"
-                    label="Enter a party name"/>
-
-                    <button type='submit'>Sign Up</button>
+                    label="Your email address"/>
+                    
+                    <Button type='submit' class="btn btn-primary btn-lg">Sign Up</Button>
+                    
                 </form>
+                
                 <hr/>
             
                 <Container>
