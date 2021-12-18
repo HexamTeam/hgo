@@ -1,7 +1,7 @@
 import './Home.css';
 import search from '../img/search-icon.png';
 import TextField from '@mui/material/TextField';
-import beach from '../img/beach.jpg';
+import beach from '../img/CoverImg.jpg';
 
 
 
@@ -12,9 +12,9 @@ const Home = () => {
     <div >
 
       
-        <img src={beach} alt="Avatar" className='bgimg'>
+        {/* <img src={beach} alt="Avatar" className='bgimg'/> */}
         
-        </img>
+        
         <center>
             <div className="rcorners" >
                 <div className='row1'>
@@ -67,11 +67,15 @@ const Home = () => {
                 </div>
                 
             </div>
+
+            
             
             </center>
                   
     </div>
     );
 }
+
+
 
 export default Home

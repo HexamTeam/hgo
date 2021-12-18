@@ -1,16 +1,14 @@
 import LanguageIcon from '@mui/icons-material/Language';
 import IconButton from '@material-ui/core/IconButton';
 import PersonOutlineIcon from '@mui/icons-material/PersonOutline';
-import ReorderIcon from '@mui/icons-material/Reorder';
 import MenuIcon from '@mui/icons-material/Menu';
 import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import { Button } from '@mui/material';
-import { ButtonGroup } from '@mui/material';
 import React from "react";
 import './Header.css';
-import beach from '../img/beach.jpg';
-import Home from '../main/Home';
+import beach from '../img/CoverImg.jpg'
+
 
 const Header = () => {
 
@@ -26,8 +24,8 @@ const Header = () => {
     return(
         <div>
         <div  className='body'>
-          {/* <img src={beach} alt="Avatar" className='bgimg'></img> */}
-          <nav class="navbar navbar-expand-sm">
+          
+          <nav class="navbar navbar-expand-sm" style={{position:"fixed"}}>
           <div class="container-fluid">
           <div class="d-flex">
             <Button  class="btn btn-outline-success me-2" >HotelGo</Button>
