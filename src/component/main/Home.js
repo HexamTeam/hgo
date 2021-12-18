@@ -1,23 +1,66 @@
 import './Home.css';
-import search from '../img/search-icon.png'
+import search from '../img/search-icon.png';
 import TextField from '@mui/material/TextField';
+import beach from '../img/beach.jpg';
 
 const Home = () => {
 
     return(
-    <div className='backcolor'>
-        <div className="rcorners1" >
+    <div >
+        <img src={beach} alt="Avatar" className='bgimg'></img>
+        <center>
+        <div className="rcorners1" >  
+            <div className='row'>   
+                <div className='block'>   
+                    <TextField
+                    label="Location"
+                    />
+                </div>  
+                
+                <div className='vline'>
+                    <div className='vl'></div>
+                </div>
+                <div className='checkin'>
+                    <table>
+                        <tbody>
+                        <tr className='tcolor'>Check in</tr>
+                        <tr>Dec 18</tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div className='vline'>
+                    <div className='vl'></div>
+                </div>
+                <div className='checkin'>
+                    <table>
+                        <tbody>
+                        <tr className='tcolor'>Check out</tr>
+                        <tr>Dec 18</tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div className='vline'>
+                    <div className='vl'></div>
+                </div>
+                <div className='checkin'>
+                    <table>
+                        <tbody>
+                        <tr className='tcolor'>Guest room</tr>
+                        <tr>Dec 18</tr>
+                        </tbody>
+                    </table>
+
+                </div>
+                <div className='sh2'>
+                    <img src={search} alt="Avatar" className='sh'></img>
+                </div>
+            </div> 
             
-            <TextField
-            label="Location"
-            />
-            <img src={search} alt="Avatar" className='sh'></img>
-            
-            {/* <label className='textsh'>Location</label> */}
-            {/* <input type="text" placeholder="Search.." name="search"></input> */}
-            
-            
+       
         </div>
+        </center>
+        
+        
     </div>);
 }
 
