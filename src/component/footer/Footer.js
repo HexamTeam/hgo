@@ -1,3 +1,5 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { Button, TextField } from "@mui/material";
 import React from "react";
 import {
@@ -7,13 +9,16 @@ import {
     Column,
     FooterLink,
     Heading,
+    Rw,
     } from "./FooterStyle";
+import { display } from '@mui/system';
 
 
 const Footer = () => {
     return(
         <footer>
             <Box>
+            
                 <h1 style={{color:"#6696969",
                             textAlign: "center",
                             marginTop:"-50px"}}>
@@ -26,16 +31,23 @@ const Footer = () => {
                             marginTop:"-20px"}}>
                                 Sign up for travel ideas and tips in your mailbox
                             </h3>
-                
-                <form style={{textAlign:'center'}}>
-                    <TextField
-                    
-                    name="PartyName"
-                    label="Your email address"/>
-                    
-                    <Button type='submit' class="btn btn-primary btn-lg">Sign Up</Button>
-                    
-                </form>
+                <center>
+                <div style={{justifyContent:'center', alignItems:'center', display:'grid'}} >
+                    <form style={{textAlign:'center'}}>
+                        
+                        <Rw className="mx-0">
+                        <TextField
+                        
+                        name="PartyName"
+                        label="Your email address"/>
+                        
+                        <Button type="button" class="btn btn-outline-success">Sign Up</Button>
+                        </Rw>
+                        
+                    </form>
+                </div>
+                </center>
+            
                 
                 <hr/>
             
