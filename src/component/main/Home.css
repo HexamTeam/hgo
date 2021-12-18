@@ -1,6 +1,6 @@
 .rcorners1 {
     border-radius: 50px;
-    background: #cfd3c9;
+    background: #f2f1f3;
     padding: 20px; 
     width: 1000px;
     height: 50px;  
@@ -17,7 +17,9 @@
     border-bottom-left-radius: 50% 50%;
   }
 
-
+.backcolor{
+  background:#cfd3c9;
+}
 
 
 
