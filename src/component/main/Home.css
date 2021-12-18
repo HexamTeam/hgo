@@ -1,20 +1,19 @@
+
+   
 /*bg image*/
 .bgimg{
     vertical-align: middle;
     width: 1700px;
     height: 1000px;
 }
-
 /*round coner div*/
-.rcorners1 {
+.rcorners {
     border-radius: 50px;
     background: #f2f1f3;
     padding: 20px; 
-    width: 1000px;
-    height: 50px;  
+    width: 1100px;
+    height: 100px;  
   }
-
-  /*search icon's css part*/
   .sh {
     vertical-align: middle;
     width: 50px;
@@ -25,41 +24,23 @@
     border-bottom-right-radius: 50% 50%;
     border-bottom-left-radius: 50% 50%;
   }
-
-  /* home js background color */
-.backcolor{
-  background:#cfd3c9;
-  justify-content: center;
-}
-/* to make horizontal vertical line */
-  .vl {
-    border-left: 1px solid rgb(14, 20, 14);
-    height: 53px;
-    padding-left: 1em;
-  }
-
-
- 
-
-  
-
   /*rows in round coner brar*/
-  .row {
+  .row1 {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     padding-bottom: 10px;
   }
-  .block{
+  .block1{
     width: 200px;
-    height: 30px;  
-    padding-right: 1em;
-    
-    
-
+    height: 50px;  
+    padding-right: 1em;  
   }
-  .block:hover{
+  /*rows in round coner brar*/
+  
+  
+  .block1:hover{
     background-color: rgb(231, 225, 225);
     height: 50px;
   }
@@ -74,14 +55,21 @@
     height: 50px;
 
   }
+  /* to make horizontal vertical line */
+  .vl {
+    border-left: 1px solid rgb(14, 20, 14);
+    height: 53px;
+    padding-left: 1em;
+  }
   .checkin{
     width: 200px;
     height: 30px; 
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
     
   }
   .checkin:hover{
     background-color: rgb(231, 225, 225);
+    height: 50px;
   }
 
   /*text color in div table*/
@@ -89,4 +77,3 @@
       color: rgb(5, 83, 57);
       font-weight: bold;
   }
-
