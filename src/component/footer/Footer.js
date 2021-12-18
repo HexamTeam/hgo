@@ -37,7 +37,7 @@ const Footer = () => {
                 
                 <h3 style={{color:"#6696969",
                             textAlign:'center',
-                            marginTop:"-20px"}}>
+                            marginTop:"-10px"}}>
                                 Sign up for travel ideas and tips in your mailbox
                             </h3>
                 
