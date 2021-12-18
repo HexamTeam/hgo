@@ -71,7 +71,7 @@ const Header = () => {
                
 
             </div>
-            <Home/>
+            {/* <Home/> */}
             </div>
 
             
