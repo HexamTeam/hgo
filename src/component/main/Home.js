@@ -1,8 +1,8 @@
 import './Home.css';
 import search from '../img/search-icon.png';
 import TextField from '@mui/material/TextField';
-
 import beach from '../img/beach.jpg';
+
 
 
 const Home = () => {
@@ -55,11 +55,13 @@ const Home = () => {
                         </tbody>
                     </table>
 
+
                 </div>
                 <div className='sh2'>
                     <img src={search} alt="Avatar" className='sh'></img>
                 </div>
             </div> 
+
 
             
        
