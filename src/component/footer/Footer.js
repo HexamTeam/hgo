@@ -11,13 +11,22 @@ import {
     Heading,
     Rw,
     } from "./FooterStyle";
-import { display } from '@mui/system';
+import { display, height } from '@mui/system';
 
 
 const Footer = () => {
     return(
         <footer>
             <Box>
+                <center>
+                <div style={{
+                    borderRadius:"25px",
+                    backgroundColor:"#f2f1f3",
+                    paddingTop:"70px",
+                    width:"1200px",
+                    height:"200px"
+
+                }}>
             
                 <h1 style={{color:"#6696969",
                             textAlign: "center",
@@ -31,8 +40,13 @@ const Footer = () => {
                             marginTop:"-20px"}}>
                                 Sign up for travel ideas and tips in your mailbox
                             </h3>
+                
                 <center>
-                <div style={{justifyContent:'center', alignItems:'center', display:'grid'}} >
+                <div style={{
+                    justifyContent:'center',
+                    alignItems:'center',
+                    display:'grid',
+                    paddingTop:"30px"}} >
                     <form style={{textAlign:'center'}}>
                         
                         <Rw className="mx-0">
@@ -45,6 +59,9 @@ const Footer = () => {
                         </Rw>
                         
                     </form>
+                </div>
+                </center>
+                
                 </div>
                 </center>
             
