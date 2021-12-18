@@ -1,0 +1,50 @@
+.button{
+  background-color: #636060;
+  padding: 15px 20px;
+  border-radius: 100px;
+  color: #fff;
+  font-weight: 600;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  transition: all 200ms ease;
+  cursor: pointer;
+  box-shadow: 0 4px 20px 0 rgba(61, 71, 82, 0.1), 0 0 0 0 rgba(0, 127, 255, 0);
+  border: none;
+}
+
+.button5 {border-radius: 50%;}
+
+.btn{
+  border-radius: 50px;
+  background: #a2a1a3;
+  height: 10px;
+  padding-bottom: 3em;
+  text-align:right;
+}
+
+/* div.transbox p {
+  margin: 5%;
+  font-weight: bold;
+  color: #000000;
+}
+
+div.transbox {
+  margin: 30px;
+  background-color: #ffffff;
+  border: 1px solid black;
+  opacity: 0.6;
+} */
+
+.body{
+  /* background: cover; */
+  /* background-image: url("../img/beach.jpg") ; */
+  height: 1000px;
+  background-position: left;
+  vertical-align: middle;
+  width: 1700px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: fixed;
+
+}
