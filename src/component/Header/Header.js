@@ -34,7 +34,7 @@ const Header = () => {
           <div class="container-fluid">
           <div class="d-flex">
             {/* <Button  class="btn btn-outline-success me-2" > */}
-              <div className='para1'>
+              <div className='para1' style={{position:"fixed"}}>
               <h3>Hotel</h3> <h3 className='para'>Go</h3>
               </div>
               
