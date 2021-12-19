@@ -8,9 +8,13 @@ import { Button } from '@mui/material';
 import React from "react";
 import './Header.css';
 import beach from '../img/CoverImg.jpg'
+import Responsive from '../AdvancedComponent/Responsive'
+import Home from '../main/Home';
 
 
 const Header = () => {
+
+  const { width } = Responsive();
 
     const [anchorEl, setAnchorEl] = React.useState(null);
   const open = Boolean(anchorEl);
@@ -23,9 +27,10 @@ const Header = () => {
 
     return(
         <div>
+          {width > 10 && (
         <div  className='body'>
           
-          <nav class="navbar navbar-expand-sm" style={{position:"fixed"}}>
+          <nav class="navbar navbar-expand-sm" >
           <div class="container-fluid">
           <div class="d-flex">
             {/* <Button  class="btn btn-outline-success me-2" > */}
@@ -35,12 +40,13 @@ const Header = () => {
               
               {/* </Button> */}
                         
-            <div style={{paddingLeft:"52em"}}>
-            <Button class="btn btn-outline-success me-4" >Become a hotelier</Button>
+            <div style={{paddingLeft:"52em",
+                         position:"fixed"}}>
+            <Button class="btn btn-outline-success me-4">Become a hotelier</Button>
             <IconButton color="inherit">
             <LanguageIcon fontSize="large" />
             </IconButton>
-              </div>  
+              
             <Button
                
                 id="demo-positioned-button"
@@ -50,13 +56,15 @@ const Header = () => {
                 onClick={handleClick}
                 class="btn1 btn-secondary pull-right btn-sm"
                 className='btn1'
-            >
+            //     style={{position:"fixed"}}
+             >
                 
                 <IconButton color="inherit"  >
                     <MenuIcon fontSize="small"/>
                     <PersonOutlineIcon fontSize="small" /> 
                     </IconButton>
             </Button>
+             
             
             <Menu
                 id="demo-positioned-menu"
@@ -77,12 +85,16 @@ const Header = () => {
                 <MenuItem onClick={handleClose}>Register</MenuItem>
                 
             </Menu>
+            </div>  
             </div>
             </div> 
-          </nav>     
-
+          </nav> 
+          <div style={{paddingTop:"80px"}}>    
+          <Home />
+          </div>
             </div>
-            {/* <Home/> */}
+            )}
+            
             </div>
 
             
