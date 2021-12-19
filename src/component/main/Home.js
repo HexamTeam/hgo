@@ -2,11 +2,13 @@ import './Home.css';
 import search from '../img/search-icon.png';
 import TextField from '@mui/material/TextField';
 import beach from '../img/CoverImg.jpg';
+import Responsive from '../AdvancedComponent/Responsive';
 
 
 
 const Home = () => {
 
+    const { width } = Responsive();
 
     return(
     <div >
@@ -15,62 +17,74 @@ const Home = () => {
         {/* <img src={beach} alt="Avatar" className='bgimg'/> */}
         
         
+        
         <center>
+            
             <div className="rcorners" >
                 <div className='row1'>
+                    
+            
                     <div className='block1'>   
-                                <TextField
-                                label="Location"
-                                />
+                        <TextField
+                        label="Location"
+                        />
                     </div>
-                    <div className='vline'>
-                        <div className='vl'></div>
-                    </div>
-                    <div className='checkin'>
-                        <table>
-                            <tbody>
-                                <tr className='tcolor'>Check in</tr>
-                            <tr>Dec 18</tr>
+                    {width >800 && (
+                    <div className='row1'>
+            
+                                   
+                        <div className='vline'>
+                            <div className='vl'></div>
+                        </div>
+                
+                       
+                        <div className='checkin'>
+                            <table>
+                                <tbody>
+                                    <tr className='tcolor'>Check in</tr>
+                                <tr>Dec 18</tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                            <div className='vline'>
+                                <div className='vl'>
+                            </div>
+                        </div>
+                        <div className='checkin'>
+                            <table>
+                                <tbody>
+                                <tr className='tcolor'>Check out</tr>
+                                <tr>Dec 19</tr>
                             </tbody>
                         </table>
-                    </div>
+                        </div>
                         <div className='vline'>
                             <div className='vl'>
                         </div>
-                    </div>
-                    <div className='checkin'>
-                        <table>
-                            <tbody>
-                            <tr className='tcolor'>Check out</tr>
-                            <tr>Dec 19</tr>
-                        </tbody>
-                    </table>
-                    </div>
-                    <div className='vline'>
-                        <div className='vl'>
-                    </div>
-                    </div>
-                    <div className='checkin'>
-                        <table>
-                            <tbody>
-                                <tr className='tcolor'>Guest room</tr>
-                                <tr>2 Audalt and 1 room </tr>
-                            </tbody>
-                        </table>
+                        </div>
+                        <div className='checkin'>
+                            <table>
+                                <tbody>
+                                    <tr className='tcolor'>Guest room</tr>
+                                    <tr>2 Audalt and 1 room </tr>
+                                </tbody>
+                            </table>                          
+
+
+                        </div>
                         
-
-
-                    </div>
+                    </div> 
+                    )}                 
                     <div className='sh2'>
                         <img src={search} alt="Avatar" className='sh'></img>
-                        </div>
-                </div>
-                
-            </div>
+                    </div>                   
 
+                </div>                
+                
+            </div>           
             
-            
-            </center>
+        </center>
                   
     </div>
     );

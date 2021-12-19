@@ -22,9 +22,10 @@ const Footer = () => {
                 <div style={{
                     borderRadius:"25px",
                     backgroundColor:"#f2f1f3",
-                    paddingTop:"70px",
-                    width:"1200px",
-                    height:"200px"
+                    paddingTop:"80px",
+                    paddingBottom:"50px",
+                    width:"80%",
+                    height:"60%"
 
                 }}>
             
@@ -46,7 +47,7 @@ const Footer = () => {
                     justifyContent:'center',
                     alignItems:'center',
                     display:'grid',
-                    paddingTop:"30px"}} >
+                    paddingTop:"20px"}} >
                     <form style={{textAlign:'center'}}>
                         
                         <Rw className="mx-0">

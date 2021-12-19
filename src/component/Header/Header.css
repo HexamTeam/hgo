@@ -51,12 +51,14 @@ div.transbox {
 } */
 
 .body{ 
-  background: cover;
+  
   background-image: url("../img/CoverImg.jpg") ;
-  height: 1000px;
+  width: 100%;
+  height: 500px;
+  
   background-position: left;
   vertical-align: middle;
-  width: 1519px;
+  
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
